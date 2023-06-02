@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,7 +6,7 @@ namespace GrpahFinale
 {
     class Graph
     {
-         private int vertices; // Количество вершин в графе
+        private int vertices; // Количество вершин в графе
         private List<Edge> edges; // Список ребер в графе
 
         public Graph(int v)
